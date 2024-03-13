@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #include <math.h>
 
 int main()
@@ -28,109 +27,109 @@ int main()
 
 	if (phy < 33)
 	{
-		printf("Stupid you are fail in physics\n");
+		printf("Physics :: Stupid you are fail in physics\n");
 		printf("\n");
 	}
 
 	else if (phy > 32 && phy < 60)
 	{
-		printf("your physics's marks are like you have not done study in your school only sleeping in classroom\n");
+		printf("physics :: your physics's marks are like you have not done study in your school only sleeping in classroom\n");
 		printf("\n");
 	}
 
 	else if (phy >= 60 && phy < 80)
 	{
-		printf("you have good score in physics. beacause you have  hard worked your exam time\n");
+		printf("Physics :: you have good score in physics. beacause you have  hard worked your exam time\n");
 		printf("\n");
 	}
 	else
 	{
-		printf("you have give awosome perfomance in physics\n");
+		printf("physics :: you have give awosome perfomance in physics\n");
 			printf("\n");
 	}
 
 	if (chem < 33)
 	{
-		printf("Stupid you are fail in chemistry\n");
+		printf("chemistry :: Stupid you are fail in chemistry\n");
 		printf("\n");
 	}
 	else if (chem > 32 && chem < 60)
 	{
-		printf("your chemistry's marks are like you have not done study in your school only sleeping in classroom\n");
+		printf("chemistry :: your chemistry's marks are like you have not done study in your school only sleeping in classroom\n");
 		printf("\n");
 	}
 	else if (chem >= 60 && chem <= 80)
 	{
-		printf("you have good score in chemistry. beacause you have  hard worked your exam time\n");
+		printf("chemistry :: you have good score in chemistry. beacause you have  hard worked your exam time\n");
 		printf("\n");
 	}
 	else
 	{
-		printf("you have give awosome perfomance in chemistry\n");
+		printf("chemistry :: you have give awosome perfomance in chemistry\n");
 			printf("\n");
 	}
 	if (hin < 33)
 	{
-		printf("Stupid you are fail in hindi\n");
+		printf("hindi :: Stupid you are fail in hindi\n");
 		printf("\n");
 	}
 	else if (hin > 32 && hin < 60)
 	{
-		printf("your Hindi's marks are like you have not done study in your school only sleeping in classroom\n");
+		printf("hindi :: your Hindi's marks are like you have not done study in your school only sleeping in classroom\n");
 		printf("\n");
 	}
 	else if (hin >= 60 && hin <= 80)
 	{
-		printf("you have good score in hindi. beacause you have  hard worked your exam time\n");
+		printf("hindi :: you have good score in hindi. beacause you have  hard worked your exam time\n");
 		printf("\n");
 	}
 	else
 	{
-		printf("you have give awosome perfomance in hindi\n");
+		printf("hindi :: you have give awosome perfomance in hindi\n");
 			printf("\n");
 	}
 	if (mat < 33)
 	{
-		printf("Stupid you are fail in english\n");
+		printf("Math :: Stupid you are fail in Math\n");
 		printf("\n");
 	}
 	else if (mat > 32 && mat < 60)
 	{
-		printf("your Math's marks are like you have not done study in your school only sleeping in classroom\n");
+		printf("Math :: your Math's marks are like you have not done study in your school only sleeping in classroom\n");
 		printf("\n");
 	}
 	else if (mat >= 60 && mat <= 80)
 	{
-		printf("you have good score in math . beacause you have  hard worked your exam time\n");
+		printf("Math :: you have good score in math . beacause you have  hard worked your exam time\n");
 		printf("\n");
 	}
 	else
 	{
-		printf("you have give awosome perfomance in math\n");
+		printf("Math :: you have give awosome perfomance in math\n");
 			printf("\n");
 	}
 	if (eng < 33)
 	{
-		printf("stupid you are fail in english\n");
+		printf("English :: stupid you are fail in english\n");
 		printf("\n");
 	}
 	else if (eng > 32 && eng < 60)
 	{
-		printf("your English's marks are like you have not done study in your school only sleeping in classroom\n");
+		printf("English :: your English's marks are like you have not done study in your school only sleeping in classroom\n");
 		printf("\n");
 	}
 	else if (eng >= 60 && eng <= 80)
 	{
-		printf("you have good score in English. beacause you have  hard worked your exam time\n");
+		printf("English :: you have good score in English. beacause you have  hard worked your exam time\n");
 		printf("\n");
 	}
 	else
 	{
-		printf("you have give awosome perfomance in English\n");
+		printf("English :: you have give awosome perfomance in English\n");
 			printf("\n");
 	}
-
-	printf("sum of all marks is :%.f\n", sum_of_all_sub_mark);
+    printf("Maximum Marks : 500\n");
+	printf("Minimum Marks :%.f\n", sum_of_all_sub_mark);
 	printf("your parsantage is:%.2f\n", parasantage);
 
 	printf("\n");
